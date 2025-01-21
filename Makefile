@@ -7,5 +7,11 @@ windows:
 run:
 	go run ./cmd/gcd/main.go
 
+test:
+	go test ./...
+
+test-cover:
+	go test ./... -cover
+
 symlink:
 	sudo cp -f ./bin/gcd /usr/local/bin
