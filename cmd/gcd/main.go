@@ -1,10 +1,10 @@
 package main
 
 import (
-	"time"
+    "time"
     "fmt"
 
-	"github.com/jardsonsales/gcd/internal/calendar"
+    "github.com/jardsonsales/gcd/internal/calendar"
 )
 
 func main() {
