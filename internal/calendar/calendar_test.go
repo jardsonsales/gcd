@@ -1,10 +1,10 @@
 package calendar
 
 import (
-	"testing"
-	"time"
+    "testing"
+    "time"
 
-	"github.com/stretchr/testify/assert"
+    "github.com/stretchr/testify/assert"
 )
 
 func TestDaysIn(t *testing.T) {

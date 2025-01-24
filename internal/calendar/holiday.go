@@ -1,12 +1,12 @@
 package calendar
 
 import (
-	"encoding/json"
-	"fmt"
-	"log"
-	"os"
-	"path/filepath"
-	"strings"
+    "encoding/json"
+    "fmt"
+    "log"
+    "os"
+    "path/filepath"
+    "strings"
 )
 
 var HolidaysList = make(map[int][]holidayDay)
